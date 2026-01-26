@@ -110,3 +110,32 @@ nav>ul a{
 .btn i{
     margin-right: 8px;
 }
+/* .banner-section .rounded-mic-parent{
+    position: relative;
+}
+.banner-section .rounded-mic-parent .rounded-shape{
+    width: 170px;
+    height: auto;
+}
+.banner-section .rounded-mic-parent .mic{
+    width: 70px;
+    height: auto;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+.banner-section .rounded-mic-parent span{
+    background-color: #00FF88;
+    color: black;
+    font-weight: 700;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    position: absolute;
+    left: 375px;
+    top: 5px;
+
+} */
+
