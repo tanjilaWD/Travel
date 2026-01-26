@@ -25,6 +25,25 @@ img{
     font-size: 16px;
     font-weight: 700;
 }
+.section-header{
+    margin-bottom: 13px;
+    text-align: center;
+    max-width: 643px;
+    margin: 0 auto;
+
+}
+.section-header h2{
+color: rgba(19, 19, 24, 1);
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 8px;
+}
+.section-header p{
+color: rgba(19, 19, 24, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
 /* Header Section */
 nav{
     display: flex;
@@ -139,3 +158,27 @@ nav>ul a{
 
 } */
 
+/* Choose Your Destination */
+.destination-section{
+    margin: 60px auto;
+}
+.destination{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.destination div{
+   position: relative;
+}
+.destination strong{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform:translate(-50%, -50%) ;
+   font-size: 28px;
+   color: #fff;
+   font-weight: 700;
+}
+.destination img{
+    width: 100%;
+    height: 100%;
+}
