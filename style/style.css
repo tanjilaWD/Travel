@@ -162,6 +162,43 @@ nav>ul a{
     top: 5px;
 
 } */
+ /* Our Popular Tours */
+ .popular-ture {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 100px 0;
+    gap: 100px;
+    align-items: center;
+ }
+.popular-ture .ture_content h2{
+  font-size: 40px;
+  font-weight: 800;
+}
+.popular-ture .ture_content p{
+    font-size:16px;
+    margin: 24px 0;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.7);
+}
+.popular-ture .ture_content span{
+    display: block;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: rgba(19, 19, 24, 0.7);
+    display: flex;
+   align-items: flex-start;
+    
+}
+.popular-ture .ture_content span i{
+    font-size: 5px;
+    color: rgba(19, 19, 24, 0.7);
+    margin-right: 7px;
+    margin-top: 10px;
+}
+.popular-ture .img_content{
+   width: 100%;
+}
 
 /* Choose Your Destination */
 .destination-section{
