@@ -357,3 +357,41 @@ nav>ul a{
     justify-self: center; 
     max-width: 570px;
 }
+/* Perfect place */
+ .perfect-place-section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 100px 0;
+    gap: 100px;
+    align-items: center;
+ }
+.perfect-place-section .place_content h2{
+  font-size: 40px;
+  font-weight: 800;
+}
+.perfect-place-section .place_content p{
+    font-size:16px;
+    margin: 24px 0;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.7);
+}
+.perfect-place-section .place_content span{
+    display: block;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: black;
+    display: flex;
+   align-items: flex-start;
+   font-weight: 700;
+    
+}
+.perfect-place-section .place_content span i{
+    font-size: 5px;
+    color: black;
+    margin-right: 7px;
+    margin-top: 10px;
+}
+.perfect-place-section .place_img{
+   width: 100%;
+}
