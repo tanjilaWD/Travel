@@ -473,3 +473,37 @@ nav>ul a{
 .newsletter-section .news_img .news_text h4{
     font-size: 20px;    
 }
+/* footer */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0px;
+    text-align: center;
+}
+.footer-section .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     margin-bottom: 14px;
+}
+.footer-section .logo h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.footer-section .logo h2 span{
+    color: #FF5400;
+}
+.footer-section p{
+    color: rgba(90, 90, 93, 1);
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-section hr{
+    color: rgba(19, 19, 24, 0.1);
+    margin-bottom: 30px;
+}
+.footer-section .social-icon{
+    color: rgba(19, 19, 24, 1);
+    margin: 25px 0;
+    cursor: pointer;
+}
